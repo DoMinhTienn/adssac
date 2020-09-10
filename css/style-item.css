@@ -1,0 +1,50 @@
+.list {
+    margin: 20px;
+    padding: 10px;
+}
+.list-item{
+    display: flex;
+}
+.item{
+    background: #fff;
+    margin: 3%;
+    border: 1px solid #8c8c8c;
+}
+.item > a > p{
+    padding-top: 15px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.item > a:hover{
+    text-decoration: none;
+    color: black;
+}
+.item > a > img{
+    width: 100%;
+}
+
+div.item > div.con{
+    border: 1px solid #4267b2;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+div.con > a{
+    text-align: center;
+    display: block;
+}
+div.con > a:hover{
+    text-decoration: none;
+    color: white;
+    background: #4267b2;
+}
+div.het{
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 40%;
+    margin: 20px auto;
+    color: red;
+}

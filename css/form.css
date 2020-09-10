@@ -1,0 +1,130 @@
+*{
+    font-family: sans-serif;
+    line-height: 1.65;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding-top: 120px;
+    background: #f7f7f7 !important;
+}
+/*CSS HEADER*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #4267b2;
+    z-index: 99;
+}
+header > div{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+}
+
+a.logo_icon > img{
+    width: 80%;
+    height: 120px;
+}
+.search-form {
+    display: flex;
+    padding: 10px 20px;
+    margin: 30px auto;
+}
+.search-button{
+    color: white;
+    height: 100%;
+    background: #279CFF;
+    width: 40px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+}
+.search-button > i{
+    line-height: 35px;
+}
+input[type="text"]{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 5px 0 0 5px;
+}
+.market{
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin: 30px auto;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+a.market:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+ /* CSS FOOTER */
+ footer{
+    border-top: 1px solid #b3b2b2;
+    padding-top: 1%;
+}
+div.banner-end{
+   width: 70%;
+   margin: auto;
+   display: flex;
+}
+div.col40 > ul{
+   padding-left: 10px;
+}
+div.col40 > ul > li{
+   list-style-type: none;
+   margin: 10px;
+   color: #8c8c8c;
+}
+div.col40 > ul > li > a{
+   color: #8c8c8c;
+   text-decoration: none;
+}
+div.col40 > ul > li > a:hover{
+   color: blue;
+}
+
+/* CSS COL */
+.col25{
+    width: 25%;
+}
+.col30{
+    width: 30%;
+}
+.col40{
+    width: 40%;
+}
+.col50{
+    width: 50%;
+}
+.col60{
+    width: 60%;
+}
+.col10{
+    width: 10%;
+}
+/* CSS GO TOP TOP */
+html{
+    scroll-behavior: smooth;
+}
+#gototop{
+    color: white;
+    position: fixed;
+    background-color: #4267b2;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 10px;
+    line-height: 50px;
+    text-align: center;
+}

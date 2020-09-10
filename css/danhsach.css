@@ -1,0 +1,47 @@
+section{
+    width: 70%;
+    margin: auto;
+}
+section > h1{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+div.catalog{
+    padding: 20px;
+    display: flex;
+}
+div.catalog > a{
+    text-decoration: none;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid;
+    margin-left: 1%;
+    color: black;
+    border-radius: 4px;
+}
+.catalog > a:first-child{
+    margin-left: 0;
+}
+.catalog > a:hover{
+    background: #4267b2;
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS QUANG CAO */
+div.ads > div.left{
+    position: fixed;
+    bottom: 150px;
+    left: 0;
+}
+div.ads > div > img{
+    width: 200px;
+    height: 450px;
+}
+div.ads > div.right{
+    position: fixed;
+    bottom: 150px;
+    right: 0;
+}

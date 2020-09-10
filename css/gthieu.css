@@ -1,0 +1,31 @@
+section{
+    width: 80%;
+    margin: auto;
+}
+h1, h2, h3, h4{
+    color: black;
+    padding: 20px;
+}
+div.gioithieu{
+    border-bottom: 2px solid #E6ECF1;
+}
+div.gioithieu, div.lido > div{
+    text-align: justify;
+    padding: 2%;
+    font-size: 18px;
+    color: #74818D;
+}
+.table{
+    width: 80% !important;
+    margin: auto;
+    background-color: #ffffff;
+}
+.table > div{
+    padding-left: 60px;
+}
+.table > ul {
+    padding-left: 60px;
+}
+ul > li{
+    margin: 20px;
+}

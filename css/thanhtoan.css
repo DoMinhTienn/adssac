@@ -1,0 +1,21 @@
+section{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+.coin{
+    font-weight: bold;
+    font-size: 30px;
+    background: linear-gradient(to right, #12c2e9 0%, #f64f5a 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.thanhtoan{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+div.col10{
+    text-align: center;
+}

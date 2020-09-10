@@ -1,0 +1,61 @@
+/*CSS NAV*/
+nav{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.catalog{
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.catalog > a{
+    text-decoration: none;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid;
+    margin-left: 1%;
+    color: black;
+    border-radius: 4px;
+}
+.catalog > a:first-child{
+    margin-left: 0;
+}
+.catalog > a:hover{
+    background: #4267b2;
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS SECTION */
+section{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maintop{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item > img{
+    width: 100%;
+    height: 400px;
+}
+
+/* CSS QUANG CAO */
+div.ads > div.left{
+    position: fixed;
+    bottom: 150px;
+    left: 0;
+}
+div.ads > div > img{
+    width: 200px;
+    height: 450px;
+}
+div.ads > div.right{
+    position: fixed;
+    bottom: 150px;
+    right: 0;
+}
